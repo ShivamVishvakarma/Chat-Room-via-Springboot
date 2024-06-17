@@ -4,7 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+%/ No entity as there is Spring JPA dependency is not present/%
+@Data    
 @NoArgsConstructor
 @AllArgsConstructor
 public class Message {
